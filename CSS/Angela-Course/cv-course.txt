@@ -1,0 +1,29 @@
+This is a file related with the HTML of the same name, it´s like external comments.
+    In here,  i write opinions, techniques and all related.
+    1.- The HTML Estructure isn´t my property, it´s the Estructure of Angela Yu´s course, 
+        the information and Style are mine.
+    2.- The distribution used is with Relative and Absolute position.
+    3.-Position Absolute- this kind of position what do with the flow is break it and using margin, padding you can 
+        put it wherever you want.
+    4.-Position Relative- When you move an element with this position what you do, is to move it in related its point 
+        of origin.
+    5.- The better Unit to use Font-Size is "rem", because pixel is static unit, if you use percentages(%) or em´s, what happen is what
+        there are ingeritage units, so if you put it in body a unit, this affect all the document and the elements with specify
+        units too.
+
+
+
+
+Spanish Version:
+Este es un archivo relacionado con el Archivo HTML del mismo nombre, Es como comentarios Externos.
+    Aquí, Escribo Opiniones, tecnicas y todo lo relacionado.
+    1.- La estructura HTML no es de mi propiedad, es la estructura del curso de Angela Yu, la información y 
+        estilo son míos.
+    2.- La distribución usada es con posición Relativa y Absoluta.
+    3.- La posición Absoluta- Este tipo de posición lo que hace es romper el flujo y utilizando margen, paddin, tú pudes
+        ponerlo donde quieras.
+    4.- Posición Relativa- Cuando tú mueves un elemento con esta posción lo que haces, es moverla con relación a su punto
+        de origen.
+    5.- La mejor unidad para usar Font-Size es el "rem", porque los pixeles son unidades estaticas, si usas porcentages(%) o em´s, lo que sucede
+        es que son unidades hereditarias, entoces si tu pones una unidad en el BODY, este afecta todo el documento y el elemento con unidades especificas.
+        
