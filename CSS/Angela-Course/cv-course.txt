@@ -20,7 +20,7 @@ Este es un archivo relacionado con el Archivo HTML del mismo nombre, Es como com
     1.- La estructura HTML no es de mi propiedad, es la estructura del curso de Angela Yu, la información y 
         estilo son míos.
     2.- La distribución usada es con posición Relativa y Absoluta.
-    3.- La posición Absoluta- Este tipo de posición lo que hace es romper el flujo y utilizando margen, paddin, tú pudes
+    3.- La posición Absoluta- Este tipo de posición lo que hace es romper el flujo y utilizando margen, padding, tú pudes
         ponerlo donde quieras.
     4.- Posición Relativa- Cuando tú mueves un elemento con esta posción lo que haces, es moverla con relación a su punto
         de origen.

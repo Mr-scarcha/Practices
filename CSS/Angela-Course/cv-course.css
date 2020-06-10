@@ -15,12 +15,13 @@ body{
 h1{
     position: absolute;
     padding: 20px;
-    margin: 200px 500px;
+    top:150px;
+    left: 530px;
     font-family: 'Alfa Slab One', cursive;
     font-size: 8rem;
 }
 h2{
-    position: absolute;
+    font-family: 'Open Sans';
     padding: 10px;
 }
 .top-container{
@@ -28,9 +29,24 @@ h2{
     position: relative;
     width: 100%;
     min-height: 100%;
-    background-color: aqua;
 }
 .montaña{
     width: 100%;
     height: 90%;
+}
+.wid{
+    position: absolute;
+    top: 360px;
+    left: 510px;
+    color: #8f0e0e;
+}
+.profile{
+    position: relative;
+}
+.profile-img{
+    border-radius: 10%;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    right: 30px;
 }
