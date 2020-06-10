@@ -7,22 +7,32 @@ body{
     display: inline-block;
     text-align: center;
     width: 100%;
-}
-@font-face{
-    font-family: 'Open Sans', 'Alfa Slab One';
-    src: url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:ital,wght@0,300;1,700&display=swap");
+    background-color: #c6ee85;
 }
 h1{
     position: absolute;
     padding: 20px;
-    top:150px;
-    left: 530px;
+    margin: 200px 400px;
     font-family: 'Alfa Slab One', cursive;
-    font-size: 8rem;
+    font-size: 5rem;
+    color:  #66BFBF;
 }
 h2{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', cursive;
+    font-size: 3rem;
     padding: 10px;
+    color:  #66BFBF;
+}
+h3{
+    color: #11999E;
+}
+a{
+    color: #11999E;
+    line-height: 2;
+}
+p{
+    font-family: 'Nanum Gothic Coding', monospace;
+    line-height: 2;
 }
 .top-container{
     display: inline-block;
@@ -36,16 +46,16 @@ h2{
 }
 .wid{
     position: absolute;
-    top: 360px;
-    left: 510px;
-    color: #8f0e0e;
+    margin:350px 400px;
+    padding: 20px;
+    color: #66BFBF;
 }
 .profile{
     position: relative;
 }
 .profile-img{
     border-radius: 10%;
-    width: 180px;
+    width: 200px;
     height: 180px;
     position: absolute;
     right: 30px;

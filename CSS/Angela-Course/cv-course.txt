@@ -10,6 +10,10 @@ This is a file related with the HTML of the same name, it´s like external comme
     5.- The better Unit to use Font-Size is "rem", because pixel is static unit, if you use percentages(%) or em´s, what happen is what
         there are ingeritage units, so if you put it in body a unit, this affect all the document and the elements with specify
         units too.
+    6.-To change the color of fonts, just use the atribute 'color' and with this property you can 
+        change it with 'rgb', hexadecimal or other property
+    7.-Font Weight, you can change thickness of the fonts for a light, bold, normal u other.
+    8.- Line Height, with this property you can change the 'line spacing'
 
 
 
@@ -26,4 +30,7 @@ Este es un archivo relacionado con el Archivo HTML del mismo nombre, Es como com
         de origen.
     5.- La mejor unidad para usar Font-Size es el "rem", porque los pixeles son unidades estaticas, si usas porcentages(%) o em´s, lo que sucede
         es que son unidades hereditarias, entoces si tu pones una unidad en el BODY, este afecta todo el documento y el elemento con unidades especificas.
+    6.- Para cambiar el color de las fuentes, solo usa el atributo 'color' y con esta propiedad tu puedes chambiarlos con 'rgb', 'hexadecimal' u otra propiedad.
+    7.- Grosor de la Fuente, puedes cambiar el grosor de la fuente por 'light', 'bold', 'normal' u otra.
+    8.- Interlineado, con esta propiedad puedes cambiar el Interlineado
         
