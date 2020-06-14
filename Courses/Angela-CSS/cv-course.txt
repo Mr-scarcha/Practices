@@ -13,7 +13,11 @@ This is a file related with the HTML of the same name, it´s like external comme
     6.-To change the color of fonts, just use the atribute 'color' and with this property you can 
         change it with 'rgb', hexadecimal or other property
     7.-Font Weight, you can change thickness of the fonts for a light, bold, normal u other.
-    8.- Line Height, with this property you can change the 'line spacing'
+    8.- Line Height, with this property you can change the 'line spacing'.
+    9.- Float and Clear Property: this propety what it can do and what i learned, it was, there are to use it to wrapping a text around 
+        an element and not like a position property for that we use Absolute, Relative, Margin and padding attributes.
+        clear property what do it´s be an antifloat.
+    10.- "Margin: auto;" it´s a good property to center a element 
 
 
 
@@ -32,5 +36,9 @@ Este es un archivo relacionado con el Archivo HTML del mismo nombre, Es como com
         es que son unidades hereditarias, entoces si tu pones una unidad en el BODY, este afecta todo el documento y el elemento con unidades especificas.
     6.- Para cambiar el color de las fuentes, solo usa el atributo 'color' y con esta propiedad tu puedes chambiarlos con 'rgb', 'hexadecimal' u otra propiedad.
     7.- Grosor de la Fuente, puedes cambiar el grosor de la fuente por 'light', 'bold', 'normal' u otra.
-    8.- Interlineado, con esta propiedad puedes cambiar el Interlineado
+    8.- Interlineado, con esta propiedad puedes cambiar el Interlineado.
+    9.- Propiedad Float y Clear: Esta propiedad lo que puede hacer y lo que aprendí, fue que hay que usarla como un warp alrededor de un elemento
+        y no cómo una propiedad de posición. Para eso usamos atributos como: 'Absolute', 'Relative'. 'Margin' y 'padding'
+        La propiedad clear lo que hace es ser un atifloat
+    10.- "Margin:auto;" Es una buena propiedad para centrar un elemento
         
