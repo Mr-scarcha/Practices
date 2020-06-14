@@ -1,2 +1,17 @@
 Este es el archivo para aprender sobre Bootstrap en el Curso de Angela Yu:
-    1.- 
+    1.- Bueno, la primera cosa que hay que hacer es añadir el Link "Stylesheet" y Scripts de Bootstrap a nuestro proyecto.
+                             Sección para Navbar
+            2.1.- La Primera clase que hay que agregar en la Etiqutas <nav> es la clase ".navbar"
+            2.2.- Para las Etiqutas <ul> las clases que se deben de colocar es ".navbar-nav"
+            2.3.- En las Etiqutas <li> lo que se debe de colocar es la clase ".nav-item"
+            2.4.- Para los links <a> que van dentro del NAV, se les ottorga la clase "nav-link", lo que provoca que al acercarse provoque 
+                un Hover y cambiará el color.
+            2.5.- Para que el Navbar se posicione en un sentido Horizonta o mejor conocida como una fila hay que Añadir en la Etiqueta <NAV>
+                el tamaño de pantalla a la que va dirigida la acción por ejemplo ".navbar-expand-lg", lo que significa que para pantallas mayores
+                a 992 px, la posicion de los links se verá en una posición de fila
+            2.6.- Para poder crear el Menú de tipo Hamburguesa se necesitan dos Cosas:
+                    * Agregar un <button> que tomarán las clases de Toggle y un DataTaget: el cual será "navbarTogglerDemo02" aunque puede ser cualquier 
+                    nombre que uno quiera.
+                    * Agregar un Contenedor Padre en la que se alojarán todos links que estarán dentro del menú de Hamburguesa; este contenedor tendrá
+                    las clases ".collapse .navbar-collapse" junto con un ID el cúal será el mismo que el DataTarget que del <button>
+
