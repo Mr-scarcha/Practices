@@ -1,0 +1,74 @@
+Aquí es donde escribiré sobre las cosas aprendidas sobre el módulo de Bootstrap.
+    La primera cosa que haremos es la creación del NAVBAR en el documento.
+        1.- Para poder realizarlo hay que ir a la Página de Bootstrap e investigar en la Documentación.
+        2.- Lo que haremos se encuentra ubicado en la sección de Componentes y Buscamos "NAVBAR"
+        3.-Ahora lo que hacemos es seguir el ejemplo.
+        4.- Para esto se Necesita de Tags como: 
+            <nav>
+            <a></a>
+            <div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            </nav>
+        5.- En la Estructura anterior podemos ver los componentes para el NAVBAR pero hace falta añadirle estilos
+        e interacción para esto usamos las clases de Bootstrap y pasaría a el siguiente ejemplo:
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">TinDog</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-boot" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbar-boot">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Company</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        </ul>
+                    </div>
+            </nav>
+        6.- ¿Qué es lo que significan las clases?
+            En el Tag <nav></nav>, se agregarón las clases: 
+                "navbar" que indica que es un "navbar".
+                "navbar-expand-lg" esto especifica el comportamiento para cierto tipo de pantallas, en este caso especificamos
+                    para pantallas lg(puedes ver las dimensiones en la Pagina de Bootstrap)
+                "navbar-dark" con esta nos referimos al color de las fuentes
+                "bg-dark" Esta clase se dedica a color del Background del <nav> y puede ser modificado por alguno de los colores
+                    colores que maneja Bootstrap o puedes cambiarlo y personalizarlo con un archivo css.
+            En el Primer <a></a> encontramos lo que es una clase "navbar-brand", lo que indica que este hipervinculo, aplica
+                un estilo alque podemos llamar un componente para el nombre de tu marca.
+            También podemos observar que se agregarón Tags como: <button><span></span></button>, con ciertas clases y ID;
+                estos componentes sirven para hacer el menu tipo sandwich para dispositivos o pantallas más chicas.
+            En el Tag <div></div> se agrregaron clases como "collapse" "navbar-collapse", estas dos clases van juntas
+                y sirven para realizar el efecto de menu sandwich, ya que agrupa y esconde los Hipervinculos.
+            Para el Tag <ul></ul>, las clases son "navbar-nav" y "ml-auto" esta ultima clase hace que todos los hipervinculos 
+                dentro del <div></div> tengan un margen hacía la izquiera
+            En los tags <li>, se agrega una clase "nav-item"
+            Para terminar, los tags <a> que se encuentran dentro de los <li>, la clase es "nav-link"
+
+    La segunda cosa para realizar en el Proyecto es Grid o mejor dicho el Lay-Out de los componentes de la página; esta documentación 
+    la podemos encontrar en la sección "Layout".
+        1.- Esta es una sección bastante facil, ya que las clases que se ocupan en ello son:
+            "container" esto es para indicar donde empieza y termina un contenedor, cuales son los componentes que se verán afectados
+            "row", esto se coloca en un <div> y es para la colocación de algunos componentes en una fila
+            "col-sm", Con esta clase lo que podemos realizar es dar un tamaño de WIDTH a cada uno de los componentes, ya que "col", significan
+            columna en una fila, "-sm" representa el tamaño de pantalla y como va a ser el componente, cabe señalar que se agrega "-Numero",
+            este numero debe de ir de "1 a 12".
+            Cabe señalar que si no se le indica un tamaño a cierta pantalla, lo que sucede es que para los tamaños no especificados, ocupa el 100%
+            del WIDTH o 12 columnas de la fila.
+
+    
+
