@@ -54,10 +54,16 @@ Aquí es donde escribiré sobre las cosas aprendidas sobre el módulo de Bootstr
                 estos componentes sirven para hacer el menu tipo sandwich para dispositivos o pantallas más chicas.
             En el Tag <div></div> se agrregaron clases como "collapse" "navbar-collapse", estas dos clases van juntas
                 y sirven para realizar el efecto de menu sandwich, ya que agrupa y esconde los Hipervinculos.
+                Para poder crear el Menú de tipo Hamburguesa se necesitan dos Cosas:
+                * Agregar un <button> que tomarán las clases de Toggle y un DataTaget: el cual será "navbarTogglerDemo02" aunque puede ser cualquier 
+                nombre que uno quiera.
+                * Agregar un Contenedor Padre en la que se alojarán todos links que estarán dentro del menú de Hamburguesa; este contenedor tendrá
+                las clases ".collapse .navbar-collapse" junto con un ID el cúal será el mismo que el DataTarget que del <button>
             Para el Tag <ul></ul>, las clases son "navbar-nav" y "ml-auto" esta ultima clase hace que todos los hipervinculos 
                 dentro del <div></div> tengan un margen hacía la izquiera
             En los tags <li>, se agrega una clase "nav-item"
-            Para terminar, los tags <a> que se encuentran dentro de los <li>, la clase es "nav-link"
+            Para terminar, los tags <a> que se encuentran dentro de los <li>, la clase es "nav-link", lo que provoca que al acercarse provoque un Hover y cambiará el color.
+
 
     La segunda cosa para realizar en el Proyecto es Grid o mejor dicho el Lay-Out de los componentes de la página; esta documentación 
     la podemos encontrar en la sección "Layout".
