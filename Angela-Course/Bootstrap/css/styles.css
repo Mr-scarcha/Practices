@@ -1,3 +1,4 @@
+/* common elements */
 body{
     line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
@@ -8,27 +9,60 @@ h1{
     font-size: 3rem;
     color: white;
 }
-nav{
-    padding: 0 0 4.5rem;
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: #ffffff;
 }
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+/* ID elements */
 #title{
     background-color: #ff4c68;
     overflow: hidden;
 }
-.btn-title{
-    margin: 50px 20px;
+#features{
+    margin: 7%;
 }
-.iphone-poppy{
-    rotate: 30deg;
-    width: 70%;
-    height: auto;
-    margin: 50px;
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: #ffffff;
 }
+#press{
+    text-align: center;
+    padding: 2%;
+    background-color: #ef8172;
+}
+/* Classes elements */
+
+/* first section */
 .container-fluid{
     padding: 3% 15%;
 }
+.btn-title{
+    margin: 50px 20px;
+}
+
+/* images */
+.iphone-poppy{
+    transform: rotate(30deg);
+    width: 70%;
+    height: auto;
+    padding: 5%;
+}
+
+/* Navbar elements */
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
 .navbar-brand{
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -37,7 +71,41 @@ nav{
     font-size: 1.2rem;
     margin: 0 15px;
 }
-.row{
+
+/* features */
+.center{
     display: flex;
+    flex-direction: column;
     align-items: center;
+    padding: 5% ;
 }
+.feature-p{
+    color: #8f8f8f;
+    text-align: center;
+}
+/* font awesome */
+.fas{
+    color: #ef8172;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+.fas:hover{
+    color: #ff4c68;
+}
+
+/* testimonial section */
+.img-testimonials{
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* press section */
+.wid-pre{
+    width: 20%;
+    margin: 20px 20px 50px;
+}
+

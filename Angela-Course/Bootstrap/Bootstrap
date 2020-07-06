@@ -76,5 +76,10 @@ Aquí es donde escribiré sobre las cosas aprendidas sobre el módulo de Bootstr
             Cabe señalar que si no se le indica un tamaño a cierta pantalla, lo que sucede es que para los tamaños no especificados, ocupa el 100%
             del WIDTH o 12 columnas de la fila.
 
+    La tercera cosa importante que utilizamos para el Proyecto fue el uso de un CARRUSEL ó mejor conocido como SLIDESHOW; las instrucciones para    
+        utilizarlos son:
+            1.- Primero que nada, hay que saber que existen diferentes tipos de Carruseles, ya que estan los automaticos (se pueden hace solo con CSS),
+                con botones de "Next" y "Prev"
+
     
 
