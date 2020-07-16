@@ -73,7 +73,44 @@ Aquí es donde escribiré sobre las cosas aprendidas sobre el módulo de Bootstr
     La tercera cosa importante que utilizamos para el Proyecto fue el uso de un CARRUSEL ó mejor conocido como SLIDESHOW; las instrucciones para    
         utilizarlos son:
             1.- Primero que nada, hay que saber que existen diferentes tipos de Carruseles, ya que estan los automaticos (se pueden hace solo con CSS),
-                con botones de "Next" y "Prev"
+                con botones de "Next" y "Prev", etc.
+            2.- Para el ejercicio nos enfocamos con botones de Prev y Next para poder manipular los comentarios.
+            3.- Añade los divs que sean necesarios junto con las clases como lo indica el ejemplo en la documentación.
+
+    El cuarto componente que agregamos al proyecto es CARDS para la sección de Pricing: este componente es relativamiente fácil para utilizar,
+        1.-Se necesita un "DIV" principal con clase "CARD" que servira como contenedor
+        2.-Dentro colocaremos 2 o 3 "DIV" más, 1 con la clase "card-header", el 2 con la clase "card-body" y el tercero es opcional es para "card-footer"
+            esto indicara cadauna de las partes que lo compone la CARD
+        3.- Agrega el contenido en cada uno de los "DIV", añade un "PADDING" y/o "MARGIN" en caso de ser necesario.
+        4.- para hacerlo responsive debes de realizar los pasos que en la colocación de LAY-OUT, un "DIV" que contenga cada una de las CARDS con las clases
+            con su respectivo comportamiento, por ejemplo: class="col.lg-g".
+                RECUERDA: que debes de colocar un DIV contenedor de las CARDS con la clase "ROW"
+
+    La siguiente propiedad que se utilizó fue Z-INDEX
+        para Z-Index debemos de entender que se basa en "capas", Si no le agrgas algun atributo z-index en el Archivo CSS, este por default
+        es 0 pero una vez tu le agregas un valor distinto cambia, por ejemplo:
+                z-index: -1; esto significa que tu elemento estará atras de los demás elementos, si lo pones como un sandwich, todo el conenido es
+                    el jamón pero el elemento que esta con -1, es el pan que va abajo y toca el plato
+                pero si pones z-index: 1; esto es lo contario esta encima de los demás elementos y es el pan que va arriba
+
+    Los selectores, existen diferentes tipos que pueden ser usados y los cuales las la documentación se puede encontrar en MDN.docs
+        Algunos de los selectores es por:
+            Multiples elementos; para este tipo de selectores lo que sucede es que despues de cada elemento se agrega una como, ejemplo:
+                h1, h2, p,{
+                    color: #fff,
+                }
+            
+            Otro es por herencia; para este el orden del selector es elemento1 (espacio) elemento2, ejemplo:
+                div h1{
+                    color: #0000;
+                }
+            
+            El siguiente es para especificar en algun elemento; por ejemplo:
+                h1.title{
+                    color: blue;
+                }
+                En este selector especificamos que solo los elementos h1 con clase "title" se pueden cambiar de color a azul, y para este
+                se coloca el elemento1(sin espacio)junto a la clase, id, etc
 
     
 
