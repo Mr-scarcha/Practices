@@ -1,23 +1,30 @@
 /* common elements */
 body{
+    font-family: 'Montserrat', sans-serif; 
     line-height: 1.5;
-    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
+
 h1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 3rem;
     color: white;
+    font-size: 3rem;
+    font-weight: bold;
 }
 h2{
-    font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
-    color: #ffffff;
+    font-weight: bold;
 }
 h3{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     font-size: 1.5rem;
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+
+.color-section{
+    background-color: #ef8172;
+    color: #ffffff;
 }
 
 
@@ -25,28 +32,40 @@ h3{
 #title{
     background-color: #ff4c68;
     overflow: hidden;
+    position: relative;
+    z-index: 0;
 }
 #features{
     margin: 7%;
-}
-#testimonials{
-    background-color: #ef8172;
-    text-align: center;
-    color: #ffffff;
+    z-index: 1;
+    position: relative;
 }
 #press{
-    text-align: center;
+    
     padding: 2%;
-    background-color: #ef8172;
+}
+#pricing{
+    
+    margin: 7%;
+}
+#cta{
+    background-color: #ff4c68;
+    padding: 8% 10%;
+}
+#footer{
+    padding: 5% 10%;
 }
 /* Classes elements */
 
 /* first section */
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 .btn-title{
     margin: 50px 20px;
+}
+.tit-head{
+    text-align: left;
 }
 
 /* images */
@@ -55,8 +74,10 @@ h3{
     width: 70%;
     height: auto;
     padding: 5%;
+    margin-left: -170px;
+    z-index: -1;
+    position: absolute;
 }
-
 /* Navbar elements */
 .navbar{
     padding: 0 0 4.5rem 0;
@@ -77,19 +98,19 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5% ;
+    padding: 3% ;
 }
 .feature-p{
     color: #8f8f8f;
-    text-align: center;
+    
 }
 /* font awesome */
-.fas{
+.fas-icon{
     color: #ef8172;
     font-size: 3.5rem;
     margin-bottom: 1rem;
 }
-.fas:hover{
+.fas-icon:hover{
     color: #ff4c68;
 }
 
@@ -102,10 +123,44 @@ h3{
 .carousel-item{
     padding: 7% 15%;
 }
-
+.h2-test{
+    font-size: 2.5rem;
+}
 /* press section */
 .wid-pre{
     width: 20%;
     margin: 20px 20px 50px;
 }
 
+/* pricing */
+.pad-card{
+    padding: 3% 5%;
+}
+
+/* cta section */
+.cta-h3{
+    font-size: 3rem;
+    margin: 6% auto 0;
+}
+
+/* footer */
+.social-med{
+    margin: 2%;
+}
+.icon-sl{
+    font-size: 1.2rem;
+    margin-right: 20px;
+    color: #000000;
+}
+
+@media (max-width: 991px){
+    #title{
+        text-align: center;
+    }
+    .iphone-poppy{
+        margin: 0;
+        position: static;
+        transform: rotate(0);
+        z-index: 0;
+    }
+}
